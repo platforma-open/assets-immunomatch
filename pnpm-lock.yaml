@@ -32,12 +32,21 @@ importers:
       '@platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa':
         specifier: workspace:*
         version: link:../immunomatch-kappa
+      '@platforma-open/milaboratories.immunomatch-assets.immunomatch-lambda':
+        specifier: workspace:*
+        version: link:../immunomatch-lambda
     devDependencies:
       '@platforma-sdk/package-builder':
         specifier: 'catalog:'
         version: 2.15.6
 
   immunomatch-kappa:
+    devDependencies:
+      '@platforma-sdk/package-builder':
+        specifier: 'catalog:'
+        version: 2.15.6
+
+  immunomatch-lambda:
     devDependencies:
       '@platforma-sdk/package-builder':
         specifier: 'catalog:'

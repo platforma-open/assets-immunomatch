@@ -10,6 +10,9 @@
         "entrypoints": {
             "immunomatch-kappa": {
                 "reference": "@platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa/dist/tengo/asset/main.as.json"
+            },
+            "immunomatch-lambda": {
+                "reference": "@platforma-open/milaboratories.immunomatch-assets.immunomatch-lambda/dist/tengo/asset/main.as.json"
             }
         }
     },
@@ -18,7 +21,8 @@
     ],
     "license": "UNLICENSED",
     "dependencies": {
-        "@platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa": "workspace:*"
+        "@platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa": "workspace:*",
+        "@platforma-open/milaboratories.immunomatch-assets.immunomatch-lambda": "workspace:*"
     },
     "devDependencies": {
         "@platforma-sdk/package-builder": "catalog:"
