@@ -1,6 +1,14 @@
 {
   "Immunomatch_Lambda": {
     "model_name": "Immunomatch_Lambda",
-    "model_url": "https://huggingface.co/fraternalilab/immunomatch-lambda/resolve/main/pytorch_model.bin"
+    "model_url": "https://huggingface.co/fraternalilab/immunomatch-lambda/resolve/a01c38e17450acebce2d8bcc2226c25cd2b029db",
+    "model_files": [
+      "README.md",
+      "config.json",
+      "pytorch_model.bin",
+      "special_tokens_map.json",
+      "tokenizer_config.json",
+      "vocab.txt"
+    ]
   }
 }

@@ -1,6 +1,14 @@
 {
   "Immunomatch_Kappa": {
     "model_name": "Immunomatch_Kappa",
-    "model_url": "https://huggingface.co/fraternalilab/immunomatch-kappa/resolve/main/pytorch_model.bin"
+    "model_url": "https://huggingface.co/fraternalilab/immunomatch-kappa/resolve/0721a611a29980efb061780833da8fe7eebec1e4",
+    "model_files": [
+      "README.md",
+      "config.json",
+      "pytorch_model.bin",
+      "special_tokens_map.json",
+      "tokenizer_config.json",
+      "vocab.txt"
+    ]
   }
 }

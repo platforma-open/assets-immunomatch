@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Immunomatch Lambda model",
   "scripts": {
-    "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/",
+    "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/ && rm -rf ./indexed_model/",
     "build": "../scripts/build-everything.sh ./modelFileUrls.json",
     "postbuild": "pl-pkg build && ([ -z \"${CI}\" ] || pl-pkg publish)"
   },
