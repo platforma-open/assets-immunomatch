@@ -1,0 +1,8 @@
+packages:
+  - 'immunomatch-kappa'
+  - 'catalogue'
+
+catalog:
+  'turbo': ^2.4.4
+  '@changesets/cli': ^2.28.1
+  '@platforma-sdk/package-builder': ^2.15.6

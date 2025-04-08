@@ -1,0 +1,6 @@
+{
+  "Immunomatch_Kappa": {
+    "model_name": "Immunomatch_Kappa",
+    "model_url": "https://huggingface.co/fraternalilab/immunomatch-kappa/resolve/main/pytorch_model.bin"
+  }
+}

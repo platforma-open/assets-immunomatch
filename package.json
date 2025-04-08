@@ -1,0 +1,21 @@
+{
+    "name": "immunomatch-assets",
+    "scripts": {
+      "cleanup": "pnpm -r cleanup",
+      "build": "turbo run build --log-order=stream --env-mode=loose",
+      "test": "turbo run test",
+      "changeset": "changeset",
+      "version-packages": "changeset version"
+    },
+    "license": "UNLICENSED",
+    "packageManager": "pnpm@10.7.1",
+    "engines": {
+      "node": ">=20"
+    },
+    "devDependencies": {
+      "turbo": "catalog:",
+      "@changesets/cli": "catalog:"
+    },
+    "//pnpm": {}
+  }
+  

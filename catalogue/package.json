@@ -1,0 +1,26 @@
+{
+    "name": "@platforma-open/milaboratories.immunomatch-assets",
+    "version": "1.0.0",
+    "description": "Immunomatch model assets catalogue",
+    "scripts": {
+        "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
+        "build": "pl-pkg build"
+    },
+    "block-software": {
+        "entrypoints": {
+            "immunomatch-kappa": {
+                "reference": "@platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa/dist/tengo/asset/main.as.json"
+            }
+        }
+    },
+    "files": [
+        "dist/"
+    ],
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa": "workspace:*"
+    },
+    "devDependencies": {
+        "@platforma-sdk/package-builder": "catalog:"
+    }
+}
