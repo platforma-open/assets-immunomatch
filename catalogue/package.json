@@ -1,6 +1,6 @@
 {
     "name": "@platforma-open/milaboratories.immunomatch-assets",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Immunomatch model assets catalogue",
     "scripts": {
         "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
