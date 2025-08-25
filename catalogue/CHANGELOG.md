@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.immunomatch-assets
 
+## 1.0.2
+
+### Patch Changes
+
+- 8be3b85: chore: bump version
+
 ## 1.0.1
 
 ### Patch Changes
