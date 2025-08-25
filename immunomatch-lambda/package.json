@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.immunomatch-assets.immunomatch-lambda",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Immunomatch Lambda model",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./build/ && rm -rf ./dist/ && rm -rf ./indexed_model/",

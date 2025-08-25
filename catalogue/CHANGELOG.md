@@ -1,5 +1,17 @@
 # @platforma-open/milaboratories.immunomatch-assets
 
+## 1.1.0
+
+### Minor Changes
+
+- 6f8589f: chore: bump version
+
+### Patch Changes
+
+- Updated dependencies [6f8589f]
+  - @platforma-open/milaboratories.immunomatch-assets.immunomatch-kappa@1.1.0
+  - @platforma-open/milaboratories.immunomatch-assets.immunomatch-lambda@1.1.0
+
 ## 1.0.2
 
 ### Patch Changes
